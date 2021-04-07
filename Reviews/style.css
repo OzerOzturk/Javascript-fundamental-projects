@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    display: grid;
+    place-items: center;
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 4em;
+    padding: 5px;
+}
+
+.title h2{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.underline{
+    height: 0.25em;
+    width: 8em;
+    background: rgb(70, 173, 199);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    width: 80%;
+}
+
+.review{
+    background: rgb(156, 209, 240);
+    padding: 4px 8px;
+    border-radius: 5px;
+    box-shadow: rgb(62, 62, 129);
+    text-align: center;
+}
+
+.review:hover{
+    box-shadow: darkblue;
+}
+
+.review h4{
+    font-size:1.3em;
+    margin: 0 0.8em;
+    padding: 0.5em;
+    text-transform: capitalize;
+}
+
+.img-contaier{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+#person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.img-container::after {
+        font-weight: 900;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2.5em;
+        height: 2.5em;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        transform: translateY(25%);
+        background:rgb(184, 157, 197);
+        color: rgb(167, 149, 115);
+}
+.img-container::before {
+        width: 100%;
+        height: 100%;
+        background: wheat;
+        position: absolute;
+        top: -0.25em;
+        right: -0.5em;
+        border-radius: 50%;
+}
+
+#author {
+        margin-bottom: 0.25em;
+      }
+#job {
+        margin-bottom: 0.5em;
+        text-transform: uppercase;
+        color: rgb(5, 4, 87);
+        font-size: 0.9em;
+      }
+#info {
+        margin-bottom: 0.75em;
+      }
+.prev-btn,
+.next-btn {
+        color: rgb(88, 142, 212);
+        font-size: 1.25rem;
+        background: transparent;
+        border-color: transparent;
+        margin: 0 0.5em;
+        cursor: pointer;
+      }
+.prev-btn:hover,
+.next-btn:hover {
+        color: rgb(98, 136, 123);
+      }
+.random-btn {
+        margin-top: 0.5em;
+        background: rgb(233, 219, 219);
+        color: rgb(33, 36, 36);
+        padding: 0.25em 0.5em;
+        text-transform: capitalize;
+        border-radius: 6px;
+        border-color: rgb(65, 63, 63);
+        cursor: pointer;
+      }
+ .random-btn:hover {
+        background: rgb(32, 39, 65);
+        color: rgb(235, 236, 240);
+      }
