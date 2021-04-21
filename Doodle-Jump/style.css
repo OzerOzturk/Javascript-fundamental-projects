@@ -1,13 +1,26 @@
-*{
+/* *{
     margin:0;
     padding:0;
     
-}
+} */
 
 .grid{
     width: 400px;
     height: 600px;
     background-color: yellow;
     position: relative;
+}
 
+.doodler{
+    width: 60px;
+    height: 85px;
+    background-color: red;
+    position: absolute;
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute ;
 }
