@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.grid{
+    width: 400px;
+    height: 600px;
+    background-color: yellow;
+    position: relative;
+
+}
