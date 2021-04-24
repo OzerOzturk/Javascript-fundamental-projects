@@ -9,6 +9,8 @@
     height: 600px;
     background-color: yellow;
     position: relative;
+    font-size: 200px;
+    text-align: center;
 }
 
 .doodler{
