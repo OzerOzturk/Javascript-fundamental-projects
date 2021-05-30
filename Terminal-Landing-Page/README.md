@@ -8,5 +8,5 @@ Demo ---> [Terminal Landing Page](https://ozerozturk.github.io/Javascript-basic-
 Preview
 <hr>
 
-![Preview](./img/cover.png)
+![Preview](https://github.com/OzerOzturk/Javascript-basic-projects/blob/master/Terminal-Landing-Page/img/cover.PNG)
 
