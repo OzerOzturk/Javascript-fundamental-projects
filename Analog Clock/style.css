@@ -1,0 +1,138 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background: linear-gradient(to right, #5D4157, #A8CABA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.clock{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    flex-wrap: nowrap;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.clock .number {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size:1.5rem;
+    padding:8px;
+}
+
+.clock .number1{
+    --rotation: 30deg;
+}
+
+.clock .number2{
+    --rotation: 60deg;
+}
+
+.clock .number3{
+    --rotation: 90deg;
+}
+
+.clock .number4{
+    --rotation: 120deg;
+}
+
+.clock .number5{
+    --rotation: 150deg;
+}
+
+.clock .number6{
+    --rotation: 180deg;
+}
+
+.clock .number7{
+    --rotation: 210deg;
+}
+
+.clock .number8{
+    --rotation: 240deg;
+}
+
+.clock .number9{
+    --rotation: 270deg;
+}
+
+.clock .number10{
+    --rotation: 300deg;
+}
+
+.clock .number11{
+    --rotation: 330deg;
+}
+
+
+.clock .hand {
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    border: 1px solid white;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    transform-origin:bottom;
+    z-index: 10;
+    transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
+}
+
+.clock::after {
+    content: '';
+    position:absolute;
+    background-color: black;
+    z-index:11;
+    width: 15px;
+    height: 15px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+
+.clock .hand.second{
+width: 3px;
+height: 40%;
+background-color: rgb(77, 98, 212);;
+}
+
+.clock .hand.minute{
+    width: 7px;
+    height: 40%;
+    background-color: #4a4b96;;
+}
+
+.clock .hand.hour{
+    width: 10px;
+    height: 35%;
+    background-color: black;
+}
+
+
+.quote {
+    display: flex;
+    flex: 0 1 100%;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+}
