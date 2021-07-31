@@ -14,4 +14,4 @@ Demo of Selected Projects Here;
 
 - [Virtual Keyboard](https://ozerozturk.github.io/Javascript-fundamental-projects/Virtual-Keyboard/index.html)  (Live Demo)
 
-
+- [Weather App](https://ozerozturk.github.io/Javascript-fundamental-projects/Weather-App/index.html)  (Live Demo)
