@@ -29,7 +29,7 @@ Demo of Selected Projects Here;
 
 <br>
 
-![Cover](./img/cover.JPG)
+![Cover](./img/cover.jpg)
 
 
 
