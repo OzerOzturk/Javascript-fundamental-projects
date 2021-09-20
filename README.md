@@ -1,7 +1,7 @@
 # Javascript-Fundamental-Projects
 
 
-I made these projects simultaneously by following the youtube channels of users such as @bradtraversy @florinpop17 @developedbyed
+I made these projects simultaneously by following the youtube channels of users such as [Brad Traversy](https://github.com/bradtraversy),  [Florin Pop](https://github.com/florinpop17), [Simo Edwin](https://github.com/developedbyed), [John Smilga](https://github.com/john-smilga)
 <br>
 My main goal was to improve my skills in JavaScript and I am trying to continue with new projects 🖥
 <br>
@@ -26,6 +26,8 @@ Demo of Selected Projects Here;
 - [Drag and Drop Sortable List](https://ozerozturk.github.io/Javascript-fundamental-projects/Drag-Drop-Sortable-List/index.html)  (Live Demo)
 
 - [Notes App](https://ozerozturk.github.io/Javascript-fundamental-projects/Notes-App/index.html)  (Live Demo)
+
+- [Video Project](https://ozerozturk.github.io/Javascript-fundamental-projects/Video-Project/index.html)  (Live Demo)
 
 <br>
 
