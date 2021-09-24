@@ -29,6 +29,9 @@ Demo of Selected Projects Here;
 
 - [Video Project](https://ozerozturk.github.io/Javascript-fundamental-projects/Video-Project/index.html)  (Live Demo)
 
+- [Scroll Project](https://ozerozturk.github.io/Javascript-fundamental-projects/Scroll-Project/index.html)  (Live Demo)
+
+
 <br>
 
 ![Cover](./img/cover.jpg)
