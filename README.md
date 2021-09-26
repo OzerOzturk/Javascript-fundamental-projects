@@ -31,6 +31,8 @@ Demo of Selected Projects Here;
 
 - [Scroll Project](https://ozerozturk.github.io/Javascript-fundamental-projects/Scroll-Project/index.html)  (Live Demo)
 
+- [Slider Show](https://ozerozturk.github.io/Javascript-fundamental-projects/Slider/index.html)  (Live Demo)
+
 
 <br>
 
